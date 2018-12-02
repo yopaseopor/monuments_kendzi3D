@@ -1139,10 +1139,9 @@ function icon2use (name,uDef,num) {
 		switch (name) {
 			
 			//on està les icones?
-			case "Capacity:disabled=1" : return "https://raw.githubusercontent.com/yopaseopor/parkingdisabled/master/mapicons/parking_disabled_blue_little.png";
-			case "Capacity:disabled=yes" : return "https://raw.githubusercontent.com/yopaseopor/parkingdisabled/master/mapicons/parking_disabled_green_little.png";
-			case "Capacity:disabled=no" : return "https://raw.githubusercontent.com/yopaseopor/parkingdisabled/master/mapicons/parking_disabled_red_little.png";
-			case "Amb matrícula" : return "https://raw.githubusercontent.com/yopaseopor/parkingdisabled/master/mapicons/parking_disabled_yellow_little.png";
+			case "Node Wikidata" : return "https://raw.githubusercontent.com/yopaseopor/parkingdisabled/master/mapicons/parking_disabled_blue_little.png";
+			case "Via Wikidata" : return "https://raw.githubusercontent.com/yopaseopor/parkingdisabled/master/mapicons/parking_disabled_green_little.png";
+			case "Relació Wikidata" : return "https://raw.githubusercontent.com/yopaseopor/parkingdisabled/master/mapicons/parking_disabled_red_little.png";
 			case "Alcohol" : return "mapicons/liquor.png";
 			case "Alpine hut" : return "mapicons/alpinehut.png";
 			case "Apartment" : return "mapicons/apartment-3.png";
@@ -1448,14 +1447,13 @@ function noPos(ercode) {
 //on està les definicions per apartat?  L'accés via menú està a index.html
 var testdef = [
 
-{url: "?data=(node['capacity:disabled'=1](bbox););(._;>;);out center;", naam: "Capacity:disabled=1", zichtbaar: false},
-{url: "?data=(node['capacity:disabled'=yes](bbox););(._;>;);out center;", naam: "Capacity:disabled=yes", zichtbaar: false},
-{url: "?data=(node['capacity:disabled'=no](bbox););(._;>;);out center;", naam: "Capacity:disabled=no", zichtbaar: false},
-{url: "?data=(node['capacity:disabled'=yes][access=designated](bbox););(._;>;);out center;", naam: "Amb matrícula", zichtbaar: false},
+{url: "?data=(node['wikidata'](bbox););(._;>;);out center;", naam: "Node Wikidata", zichtbaar: false},
+{url: "?data=(way['wikidata'](bbox););(._;>;);out center;", naam: "Via Wikidata", zichtbaar: false},
+{url: "?data=(relation['wikidata'](bbox););(._;>;);out center;", naam: "Relació Wikidata", zichtbaar: false},
 
 //			make_layer(QURL + "?data=(relation[route=bus][ref=e14](bbox);way(r)(bbox);node(w););out+skel;", "turquoise",name="#l#Exprés e14 <i>(Test route)</i>", 12, false,"@0.6"),
 
-	{url: "?data=(relation[route=bus][ref='e15.1'](bbox);way(r)(bbox);node(w););out+skel;", naam: "e15.1", zichtbaar: false},
+//Node Wikidata	{url: "?data=(relation[route=bus][ref='e15.1'](bbox);way(r)(bbox);node(w););out+skel;", naam: "e15.1", zichtbaar: false},
 
 	{url: "?data=(node[amenity=atm](bbox);way[amenity=atm](bbox);node[amenity=bank][atm][atm!=no](bbox);way[amenity=bank][atm][atm!=no](bbox);rel[amenity=bank][atm][atm!=no](bbox););(._;>;);out center;", naam: "ATM", zichtbaar: false},
 	
@@ -1809,7 +1807,7 @@ function layerdef(type){
 		
 		case "amenity":
 				userPoisDef = false;
-				map.addLayers(make_array_layer(amenitydef,userPoisDef,"yellow"));
+				map.addLayers(make_array_layer(amenitydef,userPoisDef,"green"));
 				break;
 		case "tourism":
 				userPoisDef = false;
