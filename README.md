@@ -11,6 +11,16 @@ To make it work install Kendzi3D plug-in in JOSM. Then go to 3D > Models library
 ### Spain
 #### Catalunya
 ##### Barcelona
+To see it you have to add these models to your Kendzi3D library:
+
+https://raw.githubusercontent.com/yopaseopor/monuments_kendzi3D/master/ES_CAT_BCN_monuments.xml
+#### Galicia
+##### A Coruña
+To see it you have to add these models to your Kendzi3D library:
+
+https://raw.githubusercontent.com/yopaseopor/monuments_kendzi3D/master/ES_GAL_COR_monuments.xml
+
+
 
 To see it you have to add these models to your Kendzi3D library:
 
