@@ -4,9 +4,7 @@
 <!-- ES GAL A Coruña -->
 
 <nodeModel matcher="wikidata=Q245151" model="/models_ES/monuments/ES_GAL_COR_torrehercules.obj"
-translateX="1" translateY="1" translateZ="1" scale="height(1)" direction="direction(270)"/>
-
-
+translateX="1" translateY="1" translateZ="1" scale="height(100)" direction="direction(180)"/>
 
 
 </modelsLibrary>
