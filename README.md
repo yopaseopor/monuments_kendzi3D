@@ -1,15 +1,20 @@
-# Bicycle_Tags_Map
-Here you can find the source code of the [BTM (bicycle tags map)](http://mijndev.openstreetmap.nl/~ligfietser/fiets/), rendering OSM bicycle related tags that are not rendered on OSM’s 'Mapnik' or cyclemap version. The map is developed by Noordfiets, PeeWee32 and ligfietser.
+# monuments_kendzi3D
+monuments_kendzi3d plugin
 
-## Website URL
+===Kendzi3D plug-in for JOSM===
 
-The main URL for the Bicycle Tags Map is http://mijndev.openstreetmap.nl/~ligfietser/fiets/
-There is also a mirror on http://ftp.nluug.nl/pub/maps/openfietsmap/BTM/index.html
+Kendzi3D JOSM plug-in has a set up and configuration files showing some unique building models [mentioned in this link https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging#Traffic_signs_presets].
+Depends of the country will show you more or less information. Also we split the models into files to assure the content is shown in a good way.
 
-## Wiki
-http://wiki.openstreetmap.org/wiki/Bicycle_tags_map
+To make it work install Kendzi3D plug-in in JOSM. Then go to 3D > Models library and add these URL files choosing the zone or the country:
 
-## Forum
-For questions, suggestions etc use this topic on the Dutch OSM forum:
-http://forum.openstreetmap.org/viewtopic.php?id=18951
+====Spain====
+
+=====Catalunya=====
+
+======Barcelona======
+
+To see it you have to add these models to your Kendzi3D library:
+
+https://raw.githubusercontent.com/yopaseopor/monuments_kendzi3D/master/ES_CAT_BCN_monuments.xml
 

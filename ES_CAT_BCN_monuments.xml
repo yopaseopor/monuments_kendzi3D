@@ -1,0 +1,16 @@
+<modelsLibrary>
+
+<!-- situació correcta, mesura no tant -->
+<!-- ES CAT Barcelona -->
+
+<nodeModel matcher="wikidata=Q908802" model="/models_ES/monuments/ES_CAT_BCN_campanarsantamariamar.obj"
+translateX="1" translateY="1" translateZ="1" scale="height(100)" direction="direction(180)"/>
+
+<nodeModel matcher="wikidata=Q159848" model="/models_ES/monuments/ES_CAT_BCN_campnou.obj"
+translateX="1" translateY="1" translateZ="1" scale="height(100)" direction="direction(180)"/>
+			
+<nodeModel matcher="wikidata=Q48435" model="/models_ES/monuments/ES_CAT_BCN_sagradafamilia.obj"
+translateX="1" translateY="1" translateZ="1" scale="height(300)" direction="direction(180)"/>
+
+
+</modelsLibrary>

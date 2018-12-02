@@ -1,0 +1,8 @@
+<modelsLibrary>
+
+<!-- PANEL A Traffic_signs-Destination junction 1 -->
+<wayNodeModel matcher="highway=motorway" filter='"traffic_sign:forward"="ES:CAT:OR21c" side=up' model="/models_ES/traffic_signs/s242aSign.obj"
+modelParameter="material.mat_sign.texture0=textures/content/sign_airport.png"
+translate="vector(-0.25,0,2.5)" scale="height(3)" direction="270" offset="8" />
+<!-- situació correcta, mesura no tant -->
+</modelsLibrary>
