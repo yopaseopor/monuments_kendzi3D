@@ -2,10 +2,7 @@
 
 <!-- situació correcta, mesura no tant -->
 
-<!-- ES BAL Formentera -->
 
-<nodeModel matcher="wikidata=Q28374781" model="/models_ES/monuments/ES_BAL_FOR_farsavina.obj"
-translateX="1" translateY="1" translateZ="1" scale="height(100)" direction="direction(180)"/>
 
 <!-- ES CAT Barcelona -->
 
