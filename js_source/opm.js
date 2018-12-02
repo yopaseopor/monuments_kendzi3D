@@ -19,17 +19,17 @@
 
 var _ZOOM_ = "&zoom=18"; // zoomwaarde voor de Editors
 
-var CONNEX = "http://haltepagina.connexxion.nl/home/index?halte="; // Connexion link
+var CONNEX = "https://haltepagina.connexxion.nl/home/index?halte="; // Connexion link
 var DELIJN = "https://www.delijn.be/nl/haltes/halte/"; // De Lijn in Vlaanderen
-var MDB = "http://www.molendatabase.nl/nederland/molen.php?nummer="; // Molendatabase
-var DHM = "http://www.molens.nl/site/dbase/molen.php?mid="; // De Hollandse Molen
+var MDB = "https://www.molendatabase.nl/nederland/molen.php?nummer="; // Molendatabase
+var DHM = "https://www.molens.nl/site/dbase/molen.php?mid="; // De Hollandse Molen
 
 var MONUREG = "https://monumentenregister.cultureelerfgoed.nl/monuments/";
 
 // The links below are needed if you know both the OBJnr AND the MonNr.
 // Often they are the same, but sometimes they are different
 
-// var MON1 = "http://monumentenregister.cultureelerfgoed.nl/php/main.php?cAction=show&cOffset=0&cLimit=25&cOBJnr=";
+// var MON1 = "https://monumentenregister.cultureelerfgoed.nl/php/main.php?cAction=show&cOffset=0&cLimit=25&cOBJnr=";
 // var MON2 = "&oOrder=ASC&cLast=1&oField=OBJ_RIJKSNUMMER&sCompMonNr=";
 // var MON3 = "&sCompMonName=&sStatus=&sProvincie=&sGemeente=&sPlaats=&sStraat=&sHuisnummer=&sPostcode=&sFunctie=&sHoofdcategorie=&sSubcategorie=&sOmschrijving=&ID=0&oField=OBJ_RIJKSNUMMER";
 
@@ -51,9 +51,9 @@ function popupLinks(lonlat, feature, show) {
 	// Link naar Google	  
 	thelink = thelink + "<a href=\"https://maps.google.nl/maps?ll=" + lonlat.lat + "," + lonlat.lon + "&t=h&z=15\" target=\"_blank\"><img src='img/google.gif'>&nbsp;Google</a>&nbsp;";
 	// Link naar Bing
-	thelink = thelink + "<a href=\"http://www.bing.com/maps/?v=2&cp=" + lonlat.lat + "~" + lonlat.lon + "&lvl=15&dir=0&sty=h&form=LMLTCC\" target=\"_blank\"><img src='img/bing.gif'>&nbsp;Bing </a>";
+	thelink = thelink + "<a href=\"https://www.bing.com/maps/?v=2&cp=" + lonlat.lat + "~" + lonlat.lon + "&lvl=15&dir=0&sty=h&form=LMLTCC\" target=\"_blank\"><img src='img/bing.gif'>&nbsp;Bing </a>";
 	// Link naar MtM	  
-	thelink = thelink + "<a href=\"http://mijndev.openstreetmap.nl/~allroads/mtm/?map=roads&zoom=" + map.getZoom() + "&lat=" + lonlat.lat + "&lon=" + lonlat.lon + "&layers=B000000FFFFFFFFFFFFTFF\" target=\"_blank\"><img src='img/osm.gif'>&nbsp;MtM</a>&nbsp;";
+	thelink = thelink + "<a href=\"https://mijndev.openstreetmap.nl/~allroads/mtm/?map=roads&zoom=" + map.getZoom() + "&lat=" + lonlat.lat + "&lon=" + lonlat.lon + "&layers=B000000FFFFFFFFFFFFTFF\" target=\"_blank\"><img src='img/osm.gif'>&nbsp;MtM</a>&nbsp;";
 	// Link naar Mapillary	  
 	//	Mapillary changed linkformat in september 2016
 	thelink = thelink + "<a href=\"https://www.mapillary.com/app/?lat=" + lonlat.lat + "&lng=" + lonlat.lon + "&z="+ map.getZoom()  + "\" target=\"_blank\"><img src='img/mapillary.png'>&nbsp;Mapillary</a><p>";
@@ -71,7 +71,7 @@ function popupLinks(lonlat, feature, show) {
 	var cleft = lonlat.lon - area;
 	var cright = cleft + (2 * area);
 	var fid = feature.fid.split("."); // type en ID van object
-	thelink = thelink + "<b>Edit area with:</b><br><a href=\"http://localhost:8111/load_and_zoom?top=" + ctop + "&bottom=" + cbottom + "&left=" + cleft + "&right=" + cright + "&select=" + fid[0] + fid[1] + "\" target=\"josm_frame\">JOSM</a>&nbsp;&diams;&nbsp;";
+	thelink = thelink + "<b>Edit area with:</b><br><a href=\"https://localhost:8111/load_and_zoom?top=" + ctop + "&bottom=" + cbottom + "&left=" + cleft + "&right=" + cright + "&select=" + fid[0] + fid[1] + "\" target=\"josm_frame\">JOSM</a>&nbsp;&diams;&nbsp;";
 	thelink = thelink + "<a href=\"https://www.openstreetmap.org/edit?editor=id&lat=" + lonlat.lat + "&lon=" + lonlat.lon + _ZOOM_ + "\" target=\"_blank\">ID editor</a>&nbsp;&diams;&nbsp;";
 	thelink = thelink + "<a href=\"https://www.openstreetmap.org/edit?editor=potlatch2&lat=" + lonlat.lat + "&lon=" + lonlat.lon + _ZOOM_ + "\" target=\"_blank\">Potlatch&nbsp;2</a>";
 	thelink = thelink + "</div>"; // id = tlPop
@@ -295,7 +295,7 @@ FeaturePopup = OpenLayers.Class({
 				} else {
 					subject = value;
 				}
-				var href = "http://" + lang + "wikipedia.org/wiki/" + subject;
+				var href = "https://" + lang + "wikipedia.org/wiki/" + subject;
 				return this.makeLink(href, value, true);
 			case "architect":
 				return this.processMultiValue(value);
@@ -413,7 +413,7 @@ FeaturePopup = OpenLayers.Class({
 		var html = "<a ";
 		if (newPage) html += 'target="_blank" ';
 		if (href.indexOf(":") == -1) {
-			return html + 'href="http://' + href + '">' + text + '</a>';
+			return html + 'href="https://' + href + '">' + text + '</a>';
 		}
 		return html + 'href="' + href + '">' + text + '</a>';
 	},
@@ -430,7 +430,7 @@ FeaturePopup = OpenLayers.Class({
 		if (href.indexOf("upload.wiki") > 0) { // Image file reference is to a upload wiki file. This seems to deliver a correct thumbnail
 			return html + 'href="' + href + '">' + '<img src="' + href + '" height="60"/></a>';
 		}
-		if (href.indexOf("http://wiki.openstreetmap") == 0) { // Image file reference is to regular osm-wiki file. Thumbnail seems to work...
+		if (href.indexOf("https://wiki.openstreetmap") == 0) { // Image file reference is to regular osm-wiki file. Thumbnail seems to work...
 			return html + 'href="' + href + '">' + '<img src="' + href + '" height="60"/></a>';
 		}
 		if (href.indexOf("File:") == 0) { // Image file reference is to a wikimedia file - no thumbnail yet!
@@ -1692,7 +1692,7 @@ function makeUserLayer (userTags) {							// userTags bevat de "key=value" paren
 // To search something within a given distance from something else.
 // First search for key=value and store result. then search around that point for key2=val2 and store result in .result
 // Finally - to show both both key and key2 search again around result to show key.
-// See discussion on: http://forum.openstreetmap.org/viewtopic.php?id=28807&p=13				
+// See discussion on: https://forum.openstreetmap.org/viewtopic.php?id=28807&p=13				
 				case "searchAround" :	
 					var around = '';
 					var aroundPosBegin = userTags[i].indexOf("(");						// Is er een aroundwaarde gegeven?
@@ -1823,7 +1823,7 @@ function openOSMI()
 {
 	var centerLonLat = map.getCenter().transform(map.getProjectionObject(),new OpenLayers.Projection("EPSG:4326"));
 	
-	window.open("http://tools.geofabrik.de/osmi/?lon="+centerLonLat.lon+"&lat="+centerLonLat.lat+"&zoom="+ map.getZoom());
+	window.open("https://tools.geofabrik.de/osmi/?lon="+centerLonLat.lon+"&lat="+centerLonLat.lat+"&zoom="+ map.getZoom());
 }
 
 function openP2()
@@ -1861,7 +1861,7 @@ function openJOSM()
 	{
         	var bounds = map.getExtent().transform(map.getProjectionObject(),new OpenLayers.Projection("EPSG:4326"));
                 $.ajax({
-                        url: 'http://127.0.0.1:8111/load_and_zoom' +
+                        url: 'https://127.0.0.1:8111/load_and_zoom' +
                                 '?left='   + bounds.left +
                                 '&right='  + bounds.right +
                                 '&top='    + bounds.top +
