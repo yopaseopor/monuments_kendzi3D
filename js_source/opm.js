@@ -199,10 +199,6 @@ FeaturePopup = OpenLayers.Class({
 			tdValClass = '';
 			// This switch selects the right wikipage for the relevant key and turns in into a link	
 			switch (key) {
-				//on està l'apartat wiki?
-					case "test":
-					wikiKeyPage = WIKI + 'amenity">' + key + '</a>';
-					break;
 				case "amenity":
 					wikiKeyPage = WIKI + 'amenity">' + key + '</a>';
 					break;
@@ -331,7 +327,6 @@ FeaturePopup = OpenLayers.Class({
 				if (k[1] == "colour") {
 					return value + '&nbsp;&nbsp;<span style="background-color:' + value + '">' + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + '</span>';
 				} else return value;
-			
 				// check the special keys that refer to the Dutch windmill database
 			case "dhm_id":
 				molen = DHM + value;
@@ -1137,11 +1132,6 @@ function graphH (name) {
 function icon2use (name,uDef,num) {
 	if  (uDef == false)  { // geen gebruikers tags
 		switch (name) {
-			
-			//on està les icones?
-			case "Node Wikidata" : return "https://raw.githubusercontent.com/yopaseopor/parkingdisabled/master/mapicons/parking_disabled_blue_little.png";
-			case "Via Wikidata" : return "https://raw.githubusercontent.com/yopaseopor/parkingdisabled/master/mapicons/parking_disabled_green_little.png";
-			case "Relació Wikidata" : return "https://raw.githubusercontent.com/yopaseopor/parkingdisabled/master/mapicons/parking_disabled_red_little.png";
 			case "Alcohol" : return "mapicons/liquor.png";
 			case "Alpine hut" : return "mapicons/alpinehut.png";
 			case "Apartment" : return "mapicons/apartment-3.png";
@@ -1444,52 +1434,6 @@ function noPos(ercode) {
 // This block contains the layerdefinitions
 //=====================================================================
 // 1.29a Errorfix: The overpass API required an extra ";" between concluding brackets after last bbox
-//on està les definicions per apartat?  L'accés via menú està a index.html
-var testdef = [
-
-{url: "?data=(node['wikidata'](bbox););(._;>;);out center;", naam: "Node Wikidata", zichtbaar: false},
-{url: "?data=(way['wikidata'](bbox););(._;>;);out center;", naam: "Via Wikidata", zichtbaar: false},
-{url: "?data=(relation['wikidata'](bbox););(._;>;);out center;", naam: "Relació Wikidata", zichtbaar: false},
-
-//			make_layer(QURL + "?data=(relation[route=bus][ref=e14](bbox);way(r)(bbox);node(w););out+skel;", "turquoise",name="#l#Exprés e14 <i>(Test route)</i>", 12, false,"@0.6"),
-
-//Node Wikidata	{url: "?data=(relation[route=bus][ref='e15.1'](bbox);way(r)(bbox);node(w););out+skel;", naam: "e15.1", zichtbaar: false},
-
-	{url: "?data=(node[amenity=atm](bbox);way[amenity=atm](bbox);node[amenity=bank][atm][atm!=no](bbox);way[amenity=bank][atm][atm!=no](bbox);rel[amenity=bank][atm][atm!=no](bbox););(._;>;);out center;", naam: "ATM", zichtbaar: false},
-	
-	{url: "?data=(node[amenity=bank](bbox);way[amenity=bank](bbox);rel[amenity=bank](bbox););(._;>;);out center;", naam: "Bank", zichtbaar: false},
-	{url: "?data=(node[amenity=bench](bbox);node(w););out center;", naam: "Bench", zichtbaar: false},
-	{url: "?data=(node[amenity=bicycle_parking](bbox);way[amenity=bicycle_parking](bbox);rel[amenity=bicycle_parking](bbox););(._;>;);out center;", naam: "Bicycle parking", zichtbaar: false},
-	{url: "?data=(node[amenity=bicycle_rental](bbox);way[amenity=bicycle_rental](bbox);rel[amenity=bicycle_rental](bbox););(._;>;);out center;", naam: "Bicycle rental", zichtbaar: false},
-	{url: "?data=(node[amenity=cinema](bbox);way[amenity=cinema](bbox);rel[amenity=cinema](bbox););(._;>;);out center;", naam: "Cinema", zichtbaar: false},
-	{url: "?data=(node[amenity=clinic](bbox);way[amenity=clinic](bbox);rel[amenity=clinic](bbox););(._;>;);out center;", naam: "Clinic", zichtbaar: false},
-	{url: "?data=(node[amenity=embassy](bbox);way[amenity=embassy](bbox);rel[amenity=embassy](bbox););(._;>;);out center;", naam: "Embassy", zichtbaar: false},
-	{url: "?data=(node[amenity=firestation](bbox);way[amenity=firestation](bbox);rel[amenity=firestation](bbox););(._;>;);out center;", naam: "Firestation", zichtbaar: false},
-	{url: "?data=(node[amenity=fuel](bbox);way[amenity=fuel](bbox);rel[amenity=fuel](bbox););(._;>;);out center;", naam: "Fuel", zichtbaar: false},
-	{url: "?data=(node[amenity=hospital](bbox);way[amenity=hospital](bbox);rel[amenity=hospital](bbox););(._;>;);out center;", naam: "Hospital", zichtbaar: false},
-	{url: "?data=(node[amenity=library](bbox);way[amenity=library](bbox);rel[amenity=library](bbox););(._;>;);out center;", naam: "Library", zichtbaar: false},
-	{url: "?data=(node[amenity=music_school](bbox);way[amenity=music_school](bbox);rel[amenity=music_school](bbox););(._;>;);out center;", naam: "Music school", zichtbaar: false},
-	{url: "?data=(node[amenity=parking](bbox);way[amenity=parking](bbox);rel[amenity=parking](bbox););(._;>;);out center;", naam: "Parking", zichtbaar: false},
-	{url: "?data=(node[amenity=pharmacy](bbox);way[amenity=pharmacy](bbox);rel[amenity=pharmacy](bbox););(._;>;);out center;", naam: "Pharmacy", zichtbaar: false},
-	{url: "?data=(node[amenity=police](bbox);way[amenity=police](bbox);rel[amenity=police](bbox););(._;>;);out center;", naam: "Police", zichtbaar: false},
-	{url: "?data=(node[amenity=post_box](bbox);node(w););out center;", naam: "Letter box", zichtbaar: false},
-	{url: "?data=(node[amenity=post_office](bbox);way[amenity=post_office](bbox);rel[amenity=post_office](bbox););(._;>;);out center;", naam: "Post office", zichtbaar: false},
-	{url: "?data=(node[amenity~'^school$|^college$'](bbox);way[amenity~'^school$|^college$'](bbox);rel[amenity~'^school$|^college$'](bbox););(._;>;);out center;", naam: "School/college", zichtbaar: false},
-	{url: "?data=(node[amenity=taxi](bbox);way[amenity=taxi](bbox);rel[amenity=taxi](bbox););(._;>;);out center;", naam: "Taxi", zichtbaar: false},
-	{url: "?data=(node[amenity=theatre](bbox);way[amenity=theatre](bbox);rel[amenity=theatre](bbox););(._;>;);out center;", naam: "Theatre", zichtbaar: false},
-	{url: "?data=(node[amenity=toilets](bbox);way[amenity=toilets](bbox);rel[amenity=toilets](bbox););(._;>;);out center;", naam: "Toilets", zichtbaar: false},
-	{url: "?data=(node[amenity=university](bbox);way[amenity=university](bbox);rel[amenity=university](bbox););(._;>;);out center;", naam: "University<hr>", zichtbaar: false},
-// Check for various religions. We check on 5 religions AND also on a general place_of_worship but excluding the others.
-// zaterdag 9 januari 2016 Included rel for the stand-alone religions
-	{url: "?data=(node[amenity=place_of_worship][religion!~'christian|muslim|buddhist|hindu|jewish'](bbox);way[amenity=place_of_worship][religion!~'christian|muslim|buddhist|hindu|jewish'](bbox);rel[amenity=place_of_worship][religion!~'christian|muslim|buddhist|hindu|jewish'](bbox););(._;>;);out center;", naam: "Place of worship", zichtbaar: false},
- 	{url: "?data=(node[amenity=place_of_worship][religion=christian](bbox);way[amenity=place_of_worship][religion=christian](bbox);rel[amenity=place_of_worship][religion=christian](bbox););(._;>;);out center;", naam: "Church", zichtbaar: false},
- 	{url: "?data=(node[amenity=place_of_worship][religion=muslim](bbox);way[amenity=place_of_worship][religion=muslim](bbox);rel[amenity=place_of_worship][religion=muslim](bbox););(._;>;);out center;", naam: "Mosque", zichtbaar: false},
- 	{url: "?data=(node[amenity=place_of_worship][religion=buddhist](bbox);way[amenity=place_of_worship][religion=buddhist](bbox);rel[amenity=place_of_worship][religion=buddhist](bbox););(._;>;);out center;", naam: "Buddhist Temple", zichtbaar: false},
-  	{url: "?data=(node[amenity=place_of_worship][religion=hindu](bbox);way[amenity=place_of_worship][religion=hindu](bbox);rel[amenity=place_of_worship][religion=hindu](bbox););(._;>;);out center;", naam: "Hindu Temple", zichtbaar: false},
- 	{url: "?data=(node[amenity=place_of_worship][religion=jewish](bbox);way[amenity=place_of_worship][religion=jewish](bbox);rel[amenity=place_of_worship][religion=jewish](bbox););(._;>;);out center;", naam: "Synagogue", zichtbaar: false},
- // Check only for cemetery for human beings	
-	{url: "?data=(node[landuse=cemetery][animal!~'.'](bbox);way[landuse=cemetery][animal!~'.'](bbox);rel[landuse=cemetery][animal!~'.'](bbox););(._;>;);out center;", naam: "Cemetery", zichtbaar: false}
-];
 
 var amenitydef = [
 	{url: "?data=(node[amenity=atm](bbox);way[amenity=atm](bbox);node[amenity=bank][atm][atm!=no](bbox);way[amenity=bank][atm][atm!=no](bbox);rel[amenity=bank][atm][atm!=no](bbox););(._;>;);out center;", naam: "ATM", zichtbaar: false},
@@ -1800,14 +1744,9 @@ function layerdef(type){
 
 	var userPoisDef;
 	switch (type) {
-				case "test":
-				userPoisDef = false;
-				map.addLayers(make_array_layer(testdef,userPoisDef,"yellow"));
-				break;
-		
 		case "amenity":
 				userPoisDef = false;
-				map.addLayers(make_array_layer(amenitydef,userPoisDef,"green"));
+				map.addLayers(make_array_layer(amenitydef,userPoisDef,"yellow"));
 				break;
 		case "tourism":
 				userPoisDef = false;
