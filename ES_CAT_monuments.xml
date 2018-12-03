@@ -6,7 +6,13 @@
 
 <!-- ES CAT Vall de Boí -->
 
+<nodeModel matcher="wikidata=Q1589509" model="/models_ES/monuments/ES_CAT_VDB_santaeulalia.obj"
+translateX="1" translateY="1" translateZ="1" scale="height(100)" direction="direction(180)"/>
+
 <nodeModel matcher="wikidata=Q2117586" model="/models_ES/monuments/ES_CAT_VDB_santclimentdetaull.obj"
+translateX="1" translateY="1" translateZ="1" scale="height(100)" direction="direction(180)"/>
+
+<nodeModel matcher="wikidata=Q1278218" model="/models_ES/monuments/ES_CAT_VDB_santamariadetaull.obj"
 translateX="1" translateY="1" translateZ="1" scale="height(100)" direction="direction(180)"/>
 
 </modelsLibrary>
