@@ -1,0 +1,12 @@
+<modelsLibrary>
+
+<!-- situació correcta, mesura no tant -->
+
+
+
+<!-- ES CAT Vall de Boí -->
+
+<nodeModel matcher="wikidata=Q2117586" model="/models_ES/monuments/ES_CAT_VDB_santclimentdetaull.obj"
+translateX="1" translateY="1" translateZ="1" scale="height(100)" direction="direction(180)"/>
+
+</modelsLibrary>

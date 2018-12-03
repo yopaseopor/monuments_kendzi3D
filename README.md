@@ -10,6 +10,17 @@ To make it work install Kendzi3D plug-in in JOSM. Then go to 3D > Models library
 
 ## Spain
 ### Catalunya
+
+To see it you have to add these models to your Kendzi3D library:
+
+https://raw.githubusercontent.com/yopaseopor/monuments_kendzi3D/master/ES_CAT_monuments.xml
+
+There are these monuments:
+
+#### Vall de Boí
+
+*Sant Climent de Taüll
+
 #### Barcelona
 To see it you have to add these models to your Kendzi3D library:
 
@@ -49,4 +60,6 @@ There are these monuments:
 
 
 ##### Others
+
+Models downloaded from Thingiverse : 
 
