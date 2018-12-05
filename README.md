@@ -19,7 +19,14 @@ There are these monuments:
 
 #### Vall de Boí
 
-*Sant Climent de Taüll
+* Església de la Nativitat de Durro
+* Sant Climent de Taüll
+* Sant Feliu de Barruera
+* Sant Quirc de Durro
+* Santa Eulàlia d'Erill la Vall
+* Santa Maria de Taüll
+
+
 
 #### Barcelona
 To see it you have to add these models to your Kendzi3D library:

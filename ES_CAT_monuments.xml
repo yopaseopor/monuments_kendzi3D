@@ -6,13 +6,24 @@
 
 <!-- ES CAT Vall de Boí -->
 
-<nodeModel matcher="wikidata=Q1589509" model="/models_ES/monuments/ES_CAT_VDB_santaeulalia.obj"
-translateX="1" translateY="1" translateZ="1" scale="height(100)" direction="direction(180)"/>
+<nodeModel matcher="wikidata=Q3056759" model="/models_ES/monuments/ES_CAT_VDB_ermitadesantquircdedurro.obj"
+translateX="1" translateY="1" translateZ="1" scale="height(10)" direction="direction(180)"/>
 
-<nodeModel matcher="wikidata=Q2117586" model="/models_ES/monuments/ES_CAT_VDB_santclimentdetaull.obj"
-translateX="1" translateY="1" translateZ="1" scale="height(100)" direction="direction(180)"/>
+<nodeModel matcher="wikidata=Q977148" model="/models_ES/monuments/ES_CAT_VDB_esglesiadelanativitatdedurro.obj"
+translateX="1" translateY="1" translateZ="1" scale="height(10)" direction="direction(180)"/>
+
+<nodeModel matcher="wikidata=Q1589509" model="/models_ES/monuments/ES_CAT_VDB_santaeulalia.obj"
+translateX="1" translateY="1" translateZ="1" scale="height(10)" direction="direction(180)"/>
 
 <nodeModel matcher="wikidata=Q1278218" model="/models_ES/monuments/ES_CAT_VDB_santamariadetaull.obj"
-translateX="1" translateY="1" translateZ="1" scale="height(100)" direction="direction(180)"/>
+translateX="1" translateY="1" translateZ="1" scale="height(10)" direction="direction(180)"/>
+
+<nodeModel matcher="wikidata=Q2117586" model="/models_ES/monuments/ES_CAT_VDB_santclimentdetaull.obj"
+translateX="1" translateY="1" translateZ="1" scale="height(10)" direction="direction(180)"/>
+
+<nodeModel matcher="wikidata=Q1588443" model="/models_ES/monuments/ES_CAT_VDB_santfeliudebarruera.obj"
+translateX="1" translateY="1" translateZ="1" scale="height(10)" direction="direction(180)"/>
+
+
 
 </modelsLibrary>
