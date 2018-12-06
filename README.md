@@ -68,5 +68,5 @@ There are these monuments:
 
 ##### Others
 
-Models downloaded from Thingiverse : 
+Models downloaded from Thingiverse : http://www.thingiverse.com
 
