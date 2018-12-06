@@ -66,7 +66,18 @@ There are these monuments:
 * Far de Savina
 
 
-##### Others
+# Others Links
 
-Models downloaded from Thingiverse : http://www.thingiverse.com
+Originals Models founded at:
+
+https://www.thingiverse.com/jmontsecal
+https://www.thingiverse.com/mecanic39
+https://www.thingiverse.com/nelcats
+https://www.myminifactory.com/users/miniworld
+https://www.myminifactory.com/users/juanmi_260
+https://www.myminifactory.com/users/3DLirious
+
+
+
+
 
