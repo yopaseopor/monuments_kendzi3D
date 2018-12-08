@@ -1,7 +1,7 @@
-# Blender MTL File: 'None'
+# Blender MTL File: 'ES_CAT_BCN_hotearts.blend'
 # Material Count: 2
 
-newmtl Material.003
+newmtl Material.002
 Ns 94.117644
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -10,7 +10,7 @@ Ke 0.0 0.0 0.0
 Ni 1.000000
 d 1.000000
 illum 3
-map_Kd images\\ES_CAT_BCN_hotelarts1.png
+map_Kd images\\ES_CAT_BCN_torremapfre1.png
 
 newmtl Material.004
 Ns 94.117644

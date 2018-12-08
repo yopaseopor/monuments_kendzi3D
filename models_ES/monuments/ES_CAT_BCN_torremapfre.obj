@@ -1,4 +1,4 @@
-# Blender v2.80 (sub 35) OBJ File: ''
+# Blender v2.80 (sub 35) OBJ File: 'ES_CAT_BCN_hotearts.blend'
 # www.blender.org
 mtllib ES_CAT_BCN_torremapfre.mtl
 o Cube.002
@@ -40,7 +40,7 @@ vn 0.7071 0.0000 -0.7071
 vn 0.7071 -0.0000 0.7071
 vn 0.0000 -1.0000 -0.0000
 vn 0.0000 1.0000 0.0000
-usemtl Material.003
+usemtl Material.002
 s 1
 f 1/1/1 2/2/1 3/3/1 4/4/1
 f 4/5/2 3/6/2 5/7/2 6/8/2
