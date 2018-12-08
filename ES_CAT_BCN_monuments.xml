@@ -10,7 +10,7 @@
 translateX="1" translateY="1" translateZ="1" scale="height(100)" direction="direction(180)"/>
 
 <nodeModel matcher="wikidata=Q1425790" model="/models_ES/monuments/ES_CAT_BCN_hotelarts.obj"
-translateX="0" translateY="0" translateZ="0" scale="height(150)" direction="direction(180)"/>
+translateX="0" translateY="0" translateZ="0" scale="height(160)" direction="direction(180)"/>
 
 <nodeModel matcher="wikidata=Q908802" model="/models_ES/monuments/ES_CAT_BCN_santamariadelmar.obj"
 translateX="1" translateY="1" translateZ="1" scale="height(100)" direction="direction(180)"/>
