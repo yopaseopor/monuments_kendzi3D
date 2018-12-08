@@ -1,8 +1,8 @@
 # Blender MTL File: 'None'
-# Material Count: 2
+# Material Count: 3
 
-newmtl Material.003
-Ns 94.117647
+newmtl Material.001
+Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
 Ks 0.500000 0.500000 0.500000
@@ -10,10 +10,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd images\ES_CAT_BCN_hotelarts1.png
+map_Kd images\ES_CAT_BCN_torremapfre1.png
 
-newmtl Material.004
-Ns 94.117647
+newmtl Material.005
+Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
 Ks 0.500000 0.500000 0.500000
@@ -21,4 +21,14 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd images\ES_CAT_BCN_hotelarts2.png
+map_Kd images\ES_CAT_BCN_torremapfre2.png
+
+newmtl Material.005_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
