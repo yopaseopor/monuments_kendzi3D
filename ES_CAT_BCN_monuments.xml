@@ -7,7 +7,7 @@
 <!-- ES CAT Barcelona -->
 
 <nodeModel matcher="wikidata=Q159848" model="/models_ES/monuments/ES_CAT_BCN_campnou.obj"
-translateX="1" translateY="1" translateZ="1" scale="height(10)" direction="direction(180)"/>
+translateX="1" translateY="1" translateZ="1" scale="height(100)" direction="direction(180)"/>
 
 <nodeModel matcher="wikidata=Q1425790" model="/models_ES/monuments/ES_CAT_BCN_hotelarts.obj"
 translateX="1" translateY="1" translateZ="1" scale="height(10)" direction="direction(180)"/>
