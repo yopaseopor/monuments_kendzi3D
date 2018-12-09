@@ -24,6 +24,9 @@ translateX="1" translateY="1" translateZ="1" scale="height(10)" direction="direc
 <nodeModel matcher="wikidata=Q1588443" model="/models_ES/monuments/ES_CAT_VDB_santfeliudebarruera.obj"
 translateX="1" translateY="1" translateZ="1" scale="height(10)" direction="direction(180)"/>
 
+<nodeModel matcher="wikidata=Q51845823" model="/models_ES/monuments/ES_CAT_VNG_pasifae.obj"
+translateX="1" translateY="1" translateZ="1" scale="height(10)" direction="direction(180)"/>
+
 
 
 </modelsLibrary>
