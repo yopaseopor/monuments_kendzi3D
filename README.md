@@ -9,6 +9,19 @@ Depends of the country will show you more or less information. Also we split the
 To make it work install Kendzi3D plug-in in JOSM. Then go to 3D > Models library and add these URL files choosing the zone or the country:
 
 ## Spain
+
+### Castilla y León
+
+To see it you have to add these models to your Kendzi3D library:
+
+https://raw.githubusercontent.com/yopaseopor/monuments_kendzi3D/master/ES_CYL_monuments.xml
+
+There are these monuments:
+
+#### Villarcayo de Merindad de Castilla la Vieja
+
+* Santa Marina de Villarcayo
+
 ### Catalunya
 
 To see it you have to add these models to your Kendzi3D library:
@@ -39,7 +52,9 @@ There are these monuments:
 
 * Camp Nou
 * Campanar Santa Maria del Mar
+* Hotel Arts
 * Sagrada Família
+* Torre Mapfre
 
 ### Galicia
 
