@@ -1,0 +1,841 @@
+# Blender MTL File: 'None'
+# Material Count: 77
+
+newmtl material
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.137255 0.137255 0.137255
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl material_0
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.137255 0.137255 0.137255
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl material_1
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture.jpg
+
+newmtl material_10
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl material_11
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.086275 0.086275 0.086275
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl material_12
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_4.jpg
+
+newmtl material_13
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.890196 0.882353 0.870588
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl material_14
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.545098 0.533333 0.603922
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl material_15
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_5.jpg
+
+newmtl material_16
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_6.JPG
+
+newmtl material_17
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl material_18
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_7.jpg
+
+newmtl material_19
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_8.JPG
+
+newmtl material_2
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_0.jpg
+
+newmtl material_20
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_9.jpg
+
+newmtl material_21
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_10.JPG
+
+newmtl material_22
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_11.JPG
+
+newmtl material_23
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_12.JPG
+
+newmtl material_24
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_13.JPG
+
+newmtl material_25
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_14.JPG
+
+newmtl material_26
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_15.jpg
+
+newmtl material_27
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_16.jpg
+
+newmtl material_28
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_17.jpg
+
+newmtl material_29
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_18.jpg
+
+newmtl material_3
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_1.jpg
+
+newmtl material_30
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_19.jpg
+
+newmtl material_31
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_20.jpg
+
+newmtl material_32
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_21.jpg
+
+newmtl material_33
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_22.jpg
+
+newmtl material_34
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_23.jpg
+
+newmtl material_35
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_24.jpg
+
+newmtl material_36
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_25.jpg
+
+newmtl material_37
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_26.jpg
+
+newmtl material_38
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_27.jpg
+
+newmtl material_39
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_28.jpg
+
+newmtl material_4
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 0.894118 0.882353
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl material_40
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_29.jpg
+
+newmtl material_41
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_30.jpg
+
+newmtl material_42
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_31.jpg
+
+newmtl material_43
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_32.jpg
+
+newmtl material_44
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_33.jpg
+
+newmtl material_45
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_34.jpg
+
+newmtl material_46
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_35.jpg
+
+newmtl material_47
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_36.jpg
+
+newmtl material_48
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_37.jpg
+
+newmtl material_49
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_38.jpg
+
+newmtl material_50
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_39.jpg
+
+newmtl material_51
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_40.jpg
+
+newmtl material_52
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_41.jpg
+
+newmtl material_53
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_42.jpg
+
+newmtl material_54
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_43.jpg
+
+newmtl material_55
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_7.jpg
+
+newmtl material_56
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_42.jpg
+
+newmtl material_57
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_43.jpg
+
+newmtl material_58
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_44.jpg
+
+newmtl material_59
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_45.jpg
+
+newmtl material_60
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_46.jpg
+
+newmtl material_61
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_47.jpg
+
+newmtl material_62
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_48.jpg
+
+newmtl material_63
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_49.jpg
+
+newmtl material_64
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_50.jpg
+
+newmtl material_65
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_51.jpg
+
+newmtl material_66
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_52.jpg
+
+newmtl material_67
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_53.jpg
+
+newmtl material_68
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_54.jpg
+
+newmtl material_69
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_55.jpg
+
+newmtl material_70
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_56.jpg
+
+newmtl material_71
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_57.JPG
+
+newmtl material_72
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_58.jpg
+
+newmtl material_73
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_59.jpg
+
+newmtl material_74
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_60.jpg
+
+newmtl material_75
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_61.jpg
+
+newmtl material_76
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_62.JPG
+
+newmtl material_77
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_4.jpg
+
+newmtl material_78
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_63.JPG
+
+newmtl material_79
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_64.jpg
+
+newmtl material_9
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\xd2018\\Desktop\\Iglesia+Vcyo+1\\models\\untitled\\texture_1.jpg
